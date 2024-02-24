@@ -1,5 +1,5 @@
 import RegisterForm from 'components/RegisterForm/RegisterForm';
-import styles from './register-page.module.css';
+// import styles from './register-page.module.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { signupUser } from '../../redux/auth/auth-operations';
 import {
