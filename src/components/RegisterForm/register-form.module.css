@@ -1,0 +1,13 @@
+.form {
+  padding: 10px 20px;
+}
+
+.field {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 8px;
+}
+
+.field label {
+  width: 100px;
+}
