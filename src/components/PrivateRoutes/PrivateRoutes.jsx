@@ -5,6 +5,7 @@ import { useSelector } from 'react-redux';
 const PrivateRoutes = () => {
   const isLogin = useSelector(selectIsLogin);
   const token = useSelector(selectToken);
+
   if (!isLogin && token) {
     return <p>...Loading</p>;
   }
