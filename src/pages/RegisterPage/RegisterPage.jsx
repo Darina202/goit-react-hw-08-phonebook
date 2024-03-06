@@ -1,5 +1,5 @@
 import RegisterForm from 'components/RegisterForm/RegisterForm';
-// import styles from './register-page.module.css';
+import styles from './register-page.module.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { signupUser } from '../../redux/auth/auth-operations';
 import {
@@ -17,8 +17,8 @@ const RegisterPage = () => {
   };
 
   return (
-    <div>
-      <h1>Please sing up</h1>
+    <div className={styles.wrapper}>
+      <h1 className={styles.text}>Please sing up</h1>
       {authLoading && <p>Register in progres</p>}
       <RegisterForm onSubmit={handleSubmit} />
       {authError && <p>{authError}</p>}

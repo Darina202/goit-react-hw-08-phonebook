@@ -1,5 +1,5 @@
 import LoginForm from 'components/LoginForm/LoginForm';
-// import styles from './login-page.module.css';
+import styles from './login-page.module.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { loginUser } from '../../redux/auth/auth-operations';
 import {
@@ -17,7 +17,8 @@ const LoginPage = () => {
   };
 
   return (
-    <div>
+    <div className={styles.wrapper}>
+      <h1 className={styles.text}>Please log in</h1>
       {authLoading && <p>Register in progres</p>}
       <LoginForm onSubmit={handleSubmit} />
       {authError && <p>{authError}</p>}

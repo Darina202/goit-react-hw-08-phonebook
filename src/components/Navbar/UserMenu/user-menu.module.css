@@ -1,4 +1,13 @@
 .menu {
   display: flex;
-  gap: 12px;
+  gap: 20px;
+  color: #000;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+  font-family: 'Helvetica Neue';
+  font-size: 20px;
+  cursor: pointer;
 }

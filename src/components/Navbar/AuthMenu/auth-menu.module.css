@@ -1,7 +1,8 @@
 .menu {
   display: flex;
-  gap: 12px;
+  gap: 20px;
 }
 .link {
   text-decoration: none;
+  color: #000;
 }

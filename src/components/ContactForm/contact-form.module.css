@@ -1,13 +1,13 @@
 .form {
   margin-bottom: 40px;
   padding: 16px;
-  border: 1px solid #a6eef7;
-  box-shadow: 4px 4px 20px 4px #a6eef7;
+  /* border: 1px solid #a3d2ff; */
+  box-shadow: 0px 4px 16px 4px #a3d2ff;
   transition: all 200ms ease-in-out 0s;
   width: 300px;
   display: flex;
   flex-direction: column;
-  gap: 22px;
+  gap: 24px;
 }
 .formGroup {
   display: flex;
@@ -24,7 +24,11 @@
 
 .btn {
   margin: 0 auto;
-  background: radial-gradient(circle, rgba(166, 238, 247, 1) 0%, rgba(163, 210, 255, 1) 100%);
+  background: radial-gradient(
+    circle,
+    rgba(166, 238, 247, 1) 0%,
+    rgba(163, 210, 255, 1) 100%
+  );
   padding: 12px 8px;
   font-family: 'Helvetica Neue';
   font-size: 20px;

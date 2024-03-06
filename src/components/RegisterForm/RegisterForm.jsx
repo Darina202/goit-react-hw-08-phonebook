@@ -35,17 +35,39 @@ const RegisterForm = ({ onSubmit }) => {
       <form className={styles.form} onSubmit={handleSubmit}>
         <div className={styles.field}>
           <label htmlFor="nameId">Username</label>
-          <input value={name} name="name" id={nameId} onChange={handleChange} required />
+          <input
+            value={name}
+            name="name"
+            id={nameId}
+            onChange={handleChange}
+            required
+          />
         </div>
         <div className={styles.field}>
           <label htmlFor="emailId">Email</label>
-          <input value={email} type="email" name="email" id={emailId} onChange={handleChange} required />
+          <input
+            value={email}
+            type="email"
+            name="email"
+            id={emailId}
+            onChange={handleChange}
+            required
+          />
         </div>
         <div className={styles.field}>
           <label htmlFor="passwordId">Password</label>
-          <input value={password} type="password" name="password" id={passwordId} onChange={handleChange} required />
+          <input
+            value={password}
+            type="password"
+            name="password"
+            id={passwordId}
+            onChange={handleChange}
+            required
+          />
         </div>
-        <button type="submit">Register</button>
+        <button type="submit" className={styles.btn}>
+          Register
+        </button>
       </form>
     </div>
   );

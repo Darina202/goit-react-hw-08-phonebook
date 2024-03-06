@@ -1,18 +1,14 @@
-body {
-  background-color: #f3fcfd;
-}
 .wrapper {
   padding: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* margin-top: 100px; */
   font-family: 'Oxygen';
   font-size: 20px;
 }
 
 .wrapper h1 {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   color: #1918ef;
 }
 
@@ -28,6 +24,7 @@ body {
 
 .filter {
   margin-bottom: 20px;
-  margin-left: 10px;
+  align-content: center;
+  /* margin-left: 10px; */
   padding: 4px;
 }

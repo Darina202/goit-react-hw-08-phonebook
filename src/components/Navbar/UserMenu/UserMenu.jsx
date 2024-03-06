@@ -11,6 +11,7 @@ const UserMenu = () => {
     <div className={styles.menu}>
       <p>{userName.name}</p>
       <button
+        className={styles.btn}
         type="button"
         onClick={() => {
           dispatch(logoutUser());
